@@ -1,17 +1,25 @@
 {
-  "name": "note-taker",
+  "name": "hall-and-notes-",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Links https://github.com/Chapstick24/Hall-and-notes-",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chapstick24/Hall-and-notes-.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.4",
-    "path": "0.12.7"
-  }
+  "bugs": {
+    "url": "https://github.com/Chapstick24/Hall-and-notes-/issues"
+  },
+  "homepage": "https://github.com/Chapstick24/Hall-and-notes-#readme"
 }
