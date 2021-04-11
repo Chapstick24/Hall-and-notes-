@@ -9,7 +9,7 @@ const fs = require("fs")
 
 const app = express();
 // create a port to listen in on in localhost
-const PORT = 3000;
+const PORT = process.env.PORT || 8080;
 
 // Sets up the Express app to handle data parsing and middleware static
 app.use(express.urlencoded({ extended: true }));
